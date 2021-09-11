@@ -1,0 +1,9 @@
+.place__website-link {
+    min-width: 288px;
+    font-family: 'Inter';
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #fff;
+}

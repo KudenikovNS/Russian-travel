@@ -1,0 +1,14 @@
+.cover__background {
+    background-image: url(../../../images/__background.png);
+    width: 100%;
+    min-height: 200px;
+    margin-top: 55px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+@media screen and (min-width: 768px) {
+    .cover__background {
+        margin-top: 0;
+    }
+}
