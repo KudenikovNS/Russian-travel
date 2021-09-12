@@ -1,10 +1,18 @@
 .place__link {
-min-width: 288px;
-font-weight: normal;
-font-size: 18px;
-line-height: 22px;
-text-decoration-line: underline;
-color: #FFFFFF;
-margin: 0 16px 32px;
-cursor: pointer;
+  min-width: 288px;
+  font-family: "Inter", 'Arial', 'Helvetica';
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #ffffff;
+  margin: 0 16px 32px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.place__link:hover {
+  opacity: 0.8;
+  transition: opacity 0.5s ease;
+  cursor: pointer;
 }

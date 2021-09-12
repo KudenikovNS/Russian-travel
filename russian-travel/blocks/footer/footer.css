@@ -1,23 +1,23 @@
 .footer {
-    min-width: 158px;
+  min-width: 158px;
 }
 
 @media screen and (min-width: 768px) {
-    .footer {
-        min-width: 720px;
-        display: flex;
-        justify-content: space-around;
-    }
+  .footer {
+    min-width: 720px;
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .footer {
-        min-width: 928px;
-    }
+  .footer {
+    min-width: 928px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .footer {
-        min-width: 1184px;
-    }
+  .footer {
+    min-width: 1184px;
+  }
 }
