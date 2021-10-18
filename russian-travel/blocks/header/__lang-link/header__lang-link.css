@@ -1,20 +1,22 @@
 .header__lang-link {
-  color: #ffffff;
-  font-family: "Inter", 'Arial', 'Helvetica';
-  font-style: normal;
-  font-weight: normal;
-  cursor: pointer;
+    font-family: "Inter", 'Arial', 'Helvetica';
+    color: #fff;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: right;
+    cursor: pointer;
 }
 
 .header__lang-link:hover {
-  opacity: 0.8;
-  transition: opacity 0.5s ease;
-  cursor: pointer;
-}
-
-@media screen and (min-width: 768px) {
-  .header__lang-link {
-    font-size: 24px;
-    line-height: 28px;
+    opacity: 0.8;
+    transition: opacity 0.5s ease;
   }
-}
+
+  @media screen and (min-width: 768px) {
+      .header__lang-link {
+          font-size: 24px;
+          line-height: 28px;
+      }
+  }

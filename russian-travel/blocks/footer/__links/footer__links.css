@@ -1,11 +1,18 @@
 .footer__links {
-    padding: 0;
-    margin: 64px 118px 48px 16px;    
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (min-width: 768px) {
     .footer__links {
-        display: flex;
-        margin: 0;
+        flex-direction: row;
+        margin-left: 24px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .footer__links {
+        margin-left: 48px;
+    }
+}
+
