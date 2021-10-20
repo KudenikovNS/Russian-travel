@@ -1,5 +1,5 @@
 .lead__image {
-    margin: 0 0 8px;
+    margin: 0 auto 8px;
     display: block;
     min-width: 320px;
 }
@@ -13,13 +13,13 @@
 @media screen and (min-width: 1024px) {
     .lead__image {
         min-width: 928px;
-        margin: 0 48px 8px;
+        margin: 0 auto 8px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .lead__image {
         min-width: 984px;
-        margin: 0 148px 8px;
+        margin: 0 auto 8px;
     }
 }
