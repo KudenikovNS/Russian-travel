@@ -10,7 +10,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin: 55px auto 64px;
+    margin: 0 auto 64px;
   }
   
   .cover__item::after {
