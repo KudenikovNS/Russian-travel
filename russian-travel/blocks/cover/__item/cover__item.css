@@ -49,7 +49,7 @@
   @media screen and (min-width: 1280px) {
     .cover__item {
       margin: 92px auto;
-      min-width: 1184px;
+      max-width: 1184px;
       min-height: 740px;
     }
   }
