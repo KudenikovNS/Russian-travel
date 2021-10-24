@@ -6,7 +6,7 @@
 }
 
 .photo-grid__item:last-child {
-    margin-bottom: 76px;
+    margin-bottom: 61px;
 }
 
 @media screen and (min-width: 768px){
